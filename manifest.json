@@ -1,0 +1,55 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "MCPE-Learn github repo",
+        "description": "part of my youtube tutorial series. https://www.youtube.com/@jeanmajid",
+        "uuid": "c5cc8ea2-f1dc-49c0-9037-bf82e0b27ad0",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            80
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "28b23013-76c8-4f7e-843f-7e90b9b71192",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "474bf771-357d-437b-a848-1184e8606d49",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Jean majid"
+        ]
+    },
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
